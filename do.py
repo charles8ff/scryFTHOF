@@ -18,7 +18,7 @@ def altTabTo(window):
     else:
         pya.getWindowsWithTitle(window)[0].minimize()
         pya.getWindowsWithTitle(window)[0].maximize()
-            
+
 for item in spotsDict:
     print('In your game, move your cursor where the Buy '+ item + ' button is.'
           '\nWhen ready, press \'Spacebar\' to record Buy '+ item + ' button\'s position in your screen.')
